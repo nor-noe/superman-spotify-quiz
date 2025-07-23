@@ -12,7 +12,9 @@
 </template>
 
 <script setup lang="ts">
-  
+  useHead({
+    title: 'Superman Music Quiz',
+  })
 </script>
 
 <style lang="scss" scoped>
