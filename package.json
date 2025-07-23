@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "1.5.2",
+    "@nuxt/icon": "1.15.0",
+    "@vueuse/core": "^13.5.0",
+    "eslint": "^8.52.0",
+    "nuxt": "^4.0.0",
+    "spotify-preview-finder": "^2.1.0",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0",
+    "prettier-eslint": "^16.1.2",
+    "sass-embedded": "^1.89.2"
+  }
+}
